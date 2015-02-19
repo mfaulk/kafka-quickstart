@@ -10,7 +10,8 @@ Quickly deploy a minimal Zookeeper + Kafka setup using Vagrant.
 vagrant up
 ```
 
-once this is done 
+Once vagrant finishes, it takes a little longer for Kafka to start. You can `vagrant ssh brokerOne` and `less /opt/apache/kafka/logs/server.log` to see if a leader has been elected. At that point:
+
 * Zookeeper will be running 192.168.86.5
 * Broker 1 on 192.168.86.10
 
