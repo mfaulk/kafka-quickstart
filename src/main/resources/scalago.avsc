@@ -1,9 +1,0 @@
-{"namespace": "scalago",
- "type": "record",
- "name": "PingPong",
- "fields": [
-	{"name": "counter", "type": "long"},
-	{"name": "name", "type": "string"},
-	{"name": "uuid", "type": "string"}
- ]
-}
